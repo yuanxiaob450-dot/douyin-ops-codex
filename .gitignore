@@ -1,0 +1,13 @@
+# 依赖（本工具零依赖，留空也行）
+node_modules/
+
+# 运行产物（含真实店铺数据的诊断结果，切勿提交）
+out/
+*.html
+*.json
+!package.json
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+*.log
